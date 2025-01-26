@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps"></title>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between p-4">
+            <div class="left flex items-center md:order-2 ">
+                <!-- Hamburger icon for small screens only -->
+                <div class="hamburger-icon cursor-pointer mr-6 md:hidden">
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <!-- Search icon for small screens only -->
+                 <div class="search-icon md:hidden">
+                    <i class="md:hidden fa fa-solid fa-magnifying-glass"></i>
+                 </div>
+                
+            </div>
+             
+            <div class="microsot-logo  flex md:ml-16 md:order-1">
+                <!-- Microsoft logo -->
+                <img class="w-32 mr-6" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="Microsoft Logo">
+                <div class="hidden md:inline">
+                    <ul class="flex ">
+                        <li class="mr-6 hover:underline font-bold text-xl"><a href="">Microsoft 365</a></li>
+                        <li class="mr-6"><a class="hover:underline" href="">Products</a></li>
+                        <li class="mr-6"><a class="hover:underline" href="">Plans and pricing</a></li>
+                        <li class="mr-6"><a class="hover:underline" href="">Resources</a></li>
+                        <li class="mr-6"><a class="hover:underline" href=""></a></li>
+                        <li class="mr-6"><a class="hover:underline" href="">Support</a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+             
+            <div class="right flex justify-center items-center md:order-3 space-x-6">
+                <div class="md:block hidden ">
+                    <span>All Microsoft</span>
+                    <i class="fa fa-light fa-chevron-down"></i>
+                </div>
+                <!-- Search icon for medium screens and up -->
+                 <div class="search-icon hidden md:block">
+                    <i class=" md:block hidden fa fa-solid fa-magnifying-glass"></i>
+                 </div>
+                <!-- Other icons -->
+                <i class="cart fa fa-light fa-cart-shopping"></i>
+                <i class="profile fa fa-regular fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- slider -->
+    <div class="slider">
+         <div class="right bg-purple-500 ">
+             <img width="100%" src="asstes/ms.avif" alt="">
+         </div>
+         <div class=" left bg-white md:absolute z-10 md:top-32 md:left-20 p-12  w-96 space-y-4">
+            <button class="bg-yellow-400 rounded-sm w-16 h-7 text-xl font-bold hover:bg-yellow-300">new</button>
+            <h1 class=" text-3xl">Meet Surface Pro</h1>
+            <p>
+              This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.
+          </p>
+          <button class="bg-blue-600 h-12  rounded-sm w-32 hover:bg-blue-500">Learn More</button>
+        </div>
+  </div>
+</body>
+</html>
